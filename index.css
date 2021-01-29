@@ -1,0 +1,28 @@
+html, body{
+    margin: 10;
+    padding: 10;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.snake{
+    background-color: green;
+    border-radius: 50%;
+}
+
+.apple{
+    background-color :red; 
+    border-radius: 50%;
+}
